@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'avatar',
+  name: 'avatars',
   props: {
     username: {
       type: String
