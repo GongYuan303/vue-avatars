@@ -1,5 +1,5 @@
-import AvatarX from './Avatar.vue'
+import Avatars from './Avatar.vue'
 
-export { AvatarX }
+export { Avatars }
 
-export default AvatarX
+export default Avatars

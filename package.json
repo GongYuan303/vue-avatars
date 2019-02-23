@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GongYuan303/vue-avatars.git"
+    "url": "git+https://github.com/GongYuan303/vue-avatars.git"
   },
   "keywords": [
     "avatar",
@@ -88,5 +88,14 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/GongYuan303/vue-avatars/issues"
+  },
+  "homepage": "https://github.com/GongYuan303/vue-avatars#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
