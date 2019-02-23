@@ -1,4 +1,4 @@
-# vue-avatarX
+# vue-avatars
 
 [![Build Status](https://travis-ci.org/eliep/vue-avatar.svg?branch=master)](https://travis-ci.org/eliep/vue-avatar)
 
