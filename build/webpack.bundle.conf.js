@@ -19,7 +19,7 @@ const webpackConfig = merge(base, {
   output: {
     path: config.bundle.assetsRoot,
     publicPath: config.bundle.assetsPublicPath,
-    filename: 'vue-avatar.min.js',
+    filename: 'vue-avatars.min.js',
     library: 'VueAvatar',
     libraryTarget: 'umd'
   },

@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Avatar from 'vue-avatar'
+import Avatar from 'vue-avatars'
 
 /* eslint-disable no-new */
 new Vue({

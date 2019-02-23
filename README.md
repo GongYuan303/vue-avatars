@@ -1,4 +1,4 @@
-# vue-avatarX
+# vue-avatars
 
 [![Build Status](https://travis-ci.org/eliep/vue-avatar.svg?branch=master)](https://travis-ci.org/eliep/vue-avatar)
 
@@ -19,24 +19,24 @@ You can find a few examples and the documentation [here](https://eliep.github.io
 
 ## Installation
 
-`npm install vue-avatar`
+`npm install vue-avatars`
 
 ## Version
 
-| Vuejs version | vue-avatar version |
+| Vuejs version | vue-avatars version |
 | ------------- | -----------------  |
 | ^1.0.18       | ^1.3.0             |
 | ^2.0.0        | ^2.0.0             |
 
 
 ## Usage
-vue-avatar is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
+vue-avatarsis a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
 When in non-modular environment, Avatar will be registered as a global variable.</p>
 
 ### ES6
 ```js
 
-import Avatar from 'vue-avatar'
+import Avatar from 'vue-avatars'
 
 export default {
   ...
@@ -55,7 +55,7 @@ After that, you can use it in your templates:
 ### CommonJS
 ```js
 var Vue = require('vue')
-var Avatar = require('vue-avatar')
+var Avatar = require('vue-avatars')
 
 var YourComponent = Vue.extend({
   ...
@@ -70,7 +70,7 @@ var YourComponent = Vue.extend({
 
 ```
 <script src="path/to/vue/vue.min.js"></script>
-<script src="path/to/vue-avatar/dist/vue-avatar.min.js"></script>
+<script src="path/to/vue-avatar/dist/vue-avatars.min.js"></script>
 
 new Vue({
   ...
