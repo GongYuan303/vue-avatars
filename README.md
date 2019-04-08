@@ -143,6 +143,11 @@ new Vue({
     <td> true </td>
     <td> Boolean </td>
     <td>True if the avatars must be rounded.</td></tr>
+  <tr><td>:model</td>
+    <td> N </td>
+    <td> ChineseName or default</td>
+    <td> String </td>
+    <td> If the avatar must be a Chinese name, use chinesename.</td></tr>
 </tbody>
 </table>
 

@@ -1,11 +1,11 @@
-a(href='https://github.com/eliep/vue-avatar')
+a(href='https://github.com/GongYuan303/vue-avatars')
   img(style='position: absolute; top: 0; right: 0; border: 0;', src='https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67', alt='Fork me on GitHub', data-canonical-src='https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png')
 
 .container
   .row
     .jumbotron
       h1
-        avatar#avatar(username='中文名称', :size='70', inline, @avatar-initials='initials')
+        avatar#avatar(username='张三', :size='70', inline, @avatar-initials='initials')
         |             vue-avatars
       p.lead An avatar2 component for vue.js
 
@@ -34,17 +34,22 @@ a(href='https://github.com/eliep/vue-avatar')
       tbody
         tr
           th Vue.js
-          th vue-avatars
+          th vue-avatar
         tr
           td ^1.0.18
           td ^1.3.0
         tr
           td ^2.0.0
-          td ^2..0
-
+          td ^2.0.0
+        tr
+          td ^2.0.0
+          td ^2.2.0
+        tr
+          td ^2.0.0
+          td ^2.3.0
     h2 Usage
     p
-      | vue-avatars is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
+      | vue-avatar is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
       | When in non-modular environment, Avatar will be registered as a global variable.
 
     h3 ES6
@@ -72,7 +77,7 @@ a(href='https://github.com/eliep/vue-avatar')
     pre
       code.language-javascript.
         var Vue = require('vue')
-        var Avatar = require('vue-avatar')
+        var Avatar = require('vue-avatars')
 
         var YourComponent = Vue.extend({
           components: {
@@ -170,7 +175,12 @@ a(href='https://github.com/eliep/vue-avatar')
           td  true
           td  Boolean
           td True for a rounded avatar.
-
+        tr
+          td :model
+          td  N
+          td  default(ChineseName) or EnglistName
+          td  String
+          td  If the avatar must be a Chinese name, use ChineseName.
     h2 Event
     table.table
       thead
@@ -195,6 +205,15 @@ a(href='https://github.com/eliep/vue-avatar')
           th
           th Code
       tbody
+        tr
+          td
+            avatar(username='李木子', @avatar-initials='initials')
+          td
+            pre
+              code.language-html.
+                &lt;avatar username="李木子"
+                  :model="ChineseName"
+                &lt;/avatar&gt;
         tr
           td
             avatar(username='Hubert-Félix Thiéfaine')

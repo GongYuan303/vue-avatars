@@ -13,7 +13,7 @@ export default {
     },
     model: {
       type: String,
-      default: 'NameModel'
+      default: 'ChineseName'
     },
     initials: {
       type: String
@@ -114,7 +114,7 @@ export default {
 
     userInitial () {
       if (!this.isImage) {
-        if (this.model === 'NameModel') {
+        if (this.model === 'ChineseName') {
           const initials = this.initials || this.initialNames(this.username)
           return initials
         } else {
