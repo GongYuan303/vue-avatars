@@ -30,18 +30,18 @@ You can find a few examples and the documentation [here](https://github.com/Gong
 | ^2.2.0        | ^2.2.0             |
 
 ## Usage
-vue-avatarsis a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
+vue-avatars is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
 When in non-modular environment, Avatar will be registered as a global variable.</p>
 
 ### ES6
 ```js
 
-import Avatar from 'vue-avatars'
+import Avatars from 'vue-avatars'
 
 export default {
   ...
   components: {
-    Avatar
+    Avatars
   },
   ...
 }
@@ -49,18 +49,18 @@ export default {
 After that, you can use it in your templates:
 
 ```html
-<avatar username="Jane Doe"></avatar>
+<avatars username="Jane Doe"></avatars>
 ```
 
 ### CommonJS
 ```js
 var Vue = require('vue')
-var Avatar = require('vue-avatars')
+var Avatars = require('vue-avatars')
 
 var YourComponent = Vue.extend({
   ...
   components: {
-    'avatar': Avatar.Avatar
+    'avatars': Avatars.Avatars
   },
   ...
 })
@@ -75,7 +75,7 @@ var YourComponent = Vue.extend({
 new Vue({
   ...
   components: {
-    'avatar': VueAvatar.Avatar
+    'avatars': VueAvatars.Avatars
   },
   ...
 })
