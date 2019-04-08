@@ -1,12 +1,12 @@
-# vue-avatars
+# vue-avatarss
 
-[![Build Status](https://travis-ci.org/eliep/vue-avatar.svg?branch=master)](https://travis-ci.org/eliep/vue-avatar)
+[![Build Status](https://travis-ci.org/eliep/vue-avatars.svg?branch=master)](https://travis-ci.org/eliep/vue-avatars)
 
-An avatar component for vue.js.
+An avatars component for vue.js.
 
-This component display an avatar image and if none is provided fallback to the
+This component display an avatars image and if none is provided fallback to the
 user initials.  This component is highly inspired from
-[react-user-avatar](https://github.com/wbinnssmith/react-user-avatar).
+[react-user-avatars](https://github.com/wbinnssmith/react-user-avatars).
 
 Rules used to compute user initials:
 - divide the username on space and hyphen
@@ -15,33 +15,33 @@ Rules used to compute user initials:
 - if the username is divided in more than three parts and has part
   starting with an uppercase, skip parts starting with a lowercase.
 
-You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatars)
+You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatarss)
 
 ## Installation
 
-`npm install vue-avatars`
+`npm install vue-avatarss`
 
 ## Version
 
-| Vuejs version | vue-avatars version |
+| Vuejs version | vue-avatarss version |
 | ------------- | -----------------  |
 | ^1.0.18       | ^1.3.0             |
 | ^2.0.0        | ^2.0.0             |
 | ^2.2.0        | ^2.2.0             |
 
 ## Usage
-vue-avatars is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
-When in non-modular environment, Avatar will be registered as a global variable.</p>
+vue-avatarss is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
+When in non-modular environment, avatars will be registered as a global variable.</p>
 
 ### ES6
 ```js
 
-import Avatars from 'vue-avatars'
+import avatarss from 'vue-avatarss'
 
 export default {
   ...
   components: {
-    Avatars
+    avatarss
   },
   ...
 }
@@ -49,18 +49,18 @@ export default {
 After that, you can use it in your templates:
 
 ```html
-<avatars username="Jane Doe"></avatars>
+<avatarss username="Jane Doe"></avatarss>
 ```
 
 ### CommonJS
 ```js
 var Vue = require('vue')
-var Avatars = require('vue-avatars')
+var avatarss = require('vue-avatarss')
 
 var YourComponent = Vue.extend({
   ...
   components: {
-    'avatars': Avatars.Avatars
+    'avatarss': avatarss.avatarss
   },
   ...
 })
@@ -70,12 +70,12 @@ var YourComponent = Vue.extend({
 
 ```
 <script src="path/to/vue/vue.min.js"></script>
-<script src="path/to/vue-avatar/dist/vue-avatars.min.js"></script>
+<script src="path/to/vue-avatars/dist/vue-avatarss.min.js"></script>
 
 new Vue({
   ...
   components: {
-    'avatars': VueAvatars.Avatars
+    'avatarss': Vueavatarss.avatarss
   },
   ...
 })
@@ -107,7 +107,7 @@ new Vue({
     <td> N </td>
     <td> - </td>
     <td> String </td>
-    <td>Path to the avatar image to display.</td></tr>
+    <td>Path to the avatars image to display.</td></tr>
   <tr><td>:customStyle</td>
     <td> N </td>
     <td> - </td>
@@ -117,7 +117,7 @@ new Vue({
     <td> N </td>
     <td> - </td>
     <td> String </td>
-    <td>The avatar background color to use if no image is provided. If none
+    <td>The avatars background color to use if no image is provided. If none
       is specified, a background color will be picked depending on
       the user name length.</td></tr>
   <tr><td>color</td>
@@ -137,12 +137,12 @@ new Vue({
     <td> N </td>
     <td> 50 </td>
     <td> Number </td>
-    <td>The avatar size in pixel.</td></tr>
+    <td>The avatars size in pixel.</td></tr>
   <tr><td>:rounded</td>
     <td> N </td>
     <td> true </td>
     <td> Boolean </td>
-    <td>True if the avatar must be rounded.</td></tr>
+    <td>True if the avatarss must be rounded.</td></tr>
 </tbody>
 </table>
 
@@ -152,7 +152,7 @@ new Vue({
   <th>Name</th><th>Arguments</th><th>Description</th>
 </tr></thead>
 <tbody>
-  <tr><td>@avatar-initials</td>
+  <tr><td>@avatarss-initials</td>
     <td>username (the value of the username props),
       initials (the value of the computed initials or the initials props if any)</td>
     <td>This event is trigger when the component is ready with component
