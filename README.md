@@ -27,8 +27,8 @@ You can find a few examples and the documentation [here](https://github.com/Gong
 | ------------- | -----------------  |
 | ^1.0.18       | ^1.3.0             |
 | ^2.0.0        | ^2.0.0             |
-| ^2.2.0        | ^2.2.0             |
-
+| ^2.0.0        | ^2.2.0             |
+| ^2.0.0        | ^2.3.0             |
 ## Usage
 vue-avatars is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
 When in non-modular environment, avatars will be registered as a global variable.</p>
