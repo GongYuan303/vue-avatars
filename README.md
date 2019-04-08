@@ -15,7 +15,7 @@ Rules used to compute user initials:
 - if the username is divided in more than three parts and has part
   starting with an uppercase, skip parts starting with a lowercase.
 
-You can find a few examples and the documentation [here](https://eliep.github.io/vue-avatar)
+You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatars)
 
 ## Installation
 
