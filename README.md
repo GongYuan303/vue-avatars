@@ -1,4 +1,4 @@
-# vue-avatarss
+# vue-avatars
 
 [![Build Status](https://travis-ci.org/eliep/vue-avatars.svg?branch=master)](https://travis-ci.org/eliep/vue-avatars)
 
@@ -15,33 +15,33 @@ Rules used to compute user initials:
 - if the username is divided in more than three parts and has part
   starting with an uppercase, skip parts starting with a lowercase.
 
-You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatarss)
+You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatars)
 
 ## Installation
 
-`npm install vue-avatarss`
+`npm install vue-avatars`
 
 ## Version
 
-| Vuejs version | vue-avatarss version |
+| Vuejs version | vue-avatars version |
 | ------------- | -----------------  |
 | ^1.0.18       | ^1.3.0             |
 | ^2.0.0        | ^2.0.0             |
 | ^2.2.0        | ^2.2.0             |
 
 ## Usage
-vue-avatarss is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
+vue-avatars is a UMD module, which can be used as a module in both CommonJS and AMD modular environments.
 When in non-modular environment, avatars will be registered as a global variable.</p>
 
 ### ES6
 ```js
 
-import avatarss from 'vue-avatarss'
+import avatars from 'vue-avatars'
 
 export default {
   ...
   components: {
-    avatarss
+    avatars
   },
   ...
 }
@@ -49,18 +49,18 @@ export default {
 After that, you can use it in your templates:
 
 ```html
-<avatarss username="Jane Doe"></avatarss>
+<avatars username="Jane Doe"></avatars>
 ```
 
 ### CommonJS
 ```js
 var Vue = require('vue')
-var avatarss = require('vue-avatarss')
+var avatars = require('vue-avatars')
 
 var YourComponent = Vue.extend({
   ...
   components: {
-    'avatarss': avatarss.avatarss
+    'avatars': avatars.avatars
   },
   ...
 })
@@ -70,12 +70,12 @@ var YourComponent = Vue.extend({
 
 ```
 <script src="path/to/vue/vue.min.js"></script>
-<script src="path/to/vue-avatars/dist/vue-avatarss.min.js"></script>
+<script src="path/to/vue-avatars/dist/vue-avatars.min.js"></script>
 
 new Vue({
   ...
   components: {
-    'avatarss': Vueavatarss.avatarss
+    'avatars': Vueavatars.avatars
   },
   ...
 })
@@ -142,7 +142,7 @@ new Vue({
     <td> N </td>
     <td> true </td>
     <td> Boolean </td>
-    <td>True if the avatarss must be rounded.</td></tr>
+    <td>True if the avatars must be rounded.</td></tr>
 </tbody>
 </table>
 
@@ -152,7 +152,7 @@ new Vue({
   <th>Name</th><th>Arguments</th><th>Description</th>
 </tr></thead>
 <tbody>
-  <tr><td>@avatarss-initials</td>
+  <tr><td>@avatars-initials</td>
     <td>username (the value of the username props),
       initials (the value of the computed initials or the initials props if any)</td>
     <td>This event is trigger when the component is ready with component
