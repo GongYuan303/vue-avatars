@@ -17,6 +17,10 @@ Rules used to compute user initials:
 
 You can find a few examples and the documentation [here](https://github.com/GongYuan303/vue-avatars)
 
+Reference resources GITHUB:https://github.com/eliep/vue-avatar
+
+
+
 ## Installation
 
 `npm install vue-avatars`
